@@ -2,7 +2,8 @@ from django.shortcuts import render, HttpResponseRedirect
 from .forms import EmpRegistration
 from .models import User
 
-# Create your views here.
+# Create your views
+#this function help to update the data of Employe registaration
 
 def add_show(request):
     if request.method == 'POST':
